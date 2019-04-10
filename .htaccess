@@ -1,0 +1,12 @@
+Order deny,allow
+Deny from all
+
+<Files "start.php">
+    Allow from all
+</Files>
+<Files "request.php">
+    Allow from all
+</Files>
+<Files "index.html">
+    Allow from all
+</Files>
